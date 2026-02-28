@@ -67,7 +67,7 @@ const checkWinner = () =>{
 }
 
 const announceWinner = (val) =>{
-    msg.innerText = `Congrats Winner is ${val}`;
+    msg.innerText = `Game Over Winner is ${val}`;
     msgContainer.classList.remove("hide");
 }
 
